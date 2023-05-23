@@ -1,6 +1,6 @@
 all: matvec
 
-CXXFLAGS = -O2 -march=native -fopenmp
+CXXFLAGS = -Wall -g -O2 -march=native -fopenmp
 LDFLAGS = -lflexiblas -fopenmp
 
 matvec: matvec_main.o matvec_func.o

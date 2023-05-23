@@ -1,4 +1,4 @@
-#define N 10000
+#define N 8000
 #define NITER 10
 
 extern void matvec(const double a[N][N], const double b[N], double c[N]);

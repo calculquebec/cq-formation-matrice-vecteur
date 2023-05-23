@@ -44,4 +44,6 @@ int main(void)
     std::cout << "CBLAS: correct, time=" << t1/NITER << std::endl;
   else
     std::cout << "CBLAS: FAIL\n";
+
+  return 0;
 }
